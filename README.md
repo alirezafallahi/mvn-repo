@@ -9,13 +9,13 @@ Contribution
 In order to add jars to this remote repository do the following - In the example given below, we like to add the Jar for REST Testing Helper to this repository.
 The groupId refers to the groupId you have specified in your pom.xml The artifactId refers to the artifactId you have specified in your pom.xml The file parameter points to the location where the jar file exists for your new project The localRepositoryPath points to the local repository folder. 
 
-0- Clone the project (git clone https://alirezafallahi@bitbucket.org/alirezafallahi/maven-repo.git) in your home/IdeaProjects directory. 
+0- Clone the project (git clone https://github.com/alirezafallahi/mvn-repo.git) in your home/IdeaProjects directory. 
 
 1- Cd to the location of your artifact-to-be. (e.g. IdeaProjects/db-connector/target)
 
 2- At terminal do:
  
-$ mvn deploy:deploy-file -DgroupId=com.inosol -DartifactId=db-connector -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile="db-connector-1.0-SNAPSHOT.jar" -Durl=file:/home/alireza.fallahi/IdeaProjects/mvn-repo/releases
+$ mvn deploy:deploy-file -DgroupId=com.inosol -DartifactId=db-connector -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dfile="db-connector-1.0-SNAPSHOT.jar" -Durl=file:/home/alirezafallahi/IdeaProjects/mvn-repo/releases
 
 3- Change directory back to the mvn-repo directory created from step 0 and do below:
   
