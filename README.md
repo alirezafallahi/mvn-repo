@@ -29,6 +29,7 @@ Usage
 Lets imagine that you have created a new maven project called 'Test' and you like to incorporate the db-connector jar in this project. 
 You can simply do this by adding the below configuration details to your pom.xml file.
 
+```
 <dependencies>
 	<dependency>
             <groupId>com.inosol</groupId>
@@ -36,7 +37,7 @@ You can simply do this by adding the below configuration details to your pom.xml
             <version>1.0-SNAPSHOT</version>
         </dependency>
 </dependencies>
-
+```
 
 After the build tag add this:
 
