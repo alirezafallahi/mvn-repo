@@ -40,6 +40,7 @@ You can simply do this by adding the below configuration details to your pom.xml
 
 After the build tag add this:
 
+```
 <repositories>
         <repository>
             <id>alirezafallahi-releases</id>
@@ -51,3 +52,4 @@ After the build tag add this:
             <url>https://raw.github.com/alirezafallahi/mvn-repo/master/releases</url>
         </repository>
 </repositories>
+```
